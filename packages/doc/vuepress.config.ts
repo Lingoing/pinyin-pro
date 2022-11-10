@@ -1,20 +1,17 @@
 import sidebar from './sidebar';
 module.exports = {
   title: 'pinyin-pro',
-  description: 'jS',
+  description:
+    'js汉字转拼音库。获取中文拼音、韵母、声母、声调、首字母，支持拼音匹配',
   theme: 'vuepress-theme-write',
   themeConfig: {
-    logo: 'https://image-1300099782.cos.ap-beijing.myqcloud.com/analysis/react-logo.png',
+    logo: 'https://i.ibb.co/26fJ5vF/pinyin-logo.png',
     type: 'docs',
     sidebar,
     navbar: [
-      // {
-      //   text: 'React18 新特性',
-      //   link: '/feature/concurrent.md',
-      // },
       {
         text: '原理揭秘',
-        link: '/prepare/源码目录结构.md',
+        link: '/start/introduction.md',
       },
     ],
   },
@@ -26,10 +23,10 @@ module.exports = {
   },
   define: {
     SITE_INFO: {
-      title: 'React 原理揭秘',
-      description: '结合 react 源码, 讲述 react 底层原理',
-      start: '开始学习',
-      startPath: '/prepare/源码目录结构.html',
+      title: 'pinyin-pro',
+      description: '最优秀的 javascript 拼音转汉字库',
+      start: 'Get Start',
+      startPath: '/start/introduction.md',
       type: 'docs',
     },
     HOME_ITEMS: [
