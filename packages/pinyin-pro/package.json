@@ -11,8 +11,8 @@
     "commit": "git-cz",
     "coverage": "istanbul cover _mocha -- -R spec --timeout 15000 --recursive",
     "coverage:check": "istanbul check-coverage",
-    "cover": "istanbul cover --report lcov node_modules/bin/_mocha -- -R spec test/*.js",
-    "cover:local": "istanbul cover --report=html node_modules/bin/_mocha -- -R spec test/*.js",
+    "cover": "istanbul cover --report lcov ../../../../node_modules/mocha/bin/_mocha -- -R spec test/*.js",
+    "cover:local": "istanbul cover --report=html ../../../../node_modules/mocha/bin/_mocha -- -R spec test/*.js",
     "lint": "eslint ."
   },
   "repository": {
